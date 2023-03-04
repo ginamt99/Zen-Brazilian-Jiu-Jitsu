@@ -1,0 +1,20 @@
+#hero {
+    height: 450px;
+    padding: 60px;
+    background-image: url("/images/gym.jpg");
+    text-align: center;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+#hero h1 {
+    font-size: 40px;
+    background-color: rgba(51, 47, 47, 0.7);
+    position: relative;
+    top:200px;
+    color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    margin: 0 auto;
+    
+}

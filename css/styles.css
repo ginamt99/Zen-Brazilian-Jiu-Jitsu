@@ -1,0 +1,33 @@
+body {
+    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 800px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:rgba(51, 47, 47, 0.5);
+    color: rgba(255, 255, 255, 0.8);;
+}
+
+header ul {
+    display: flex;
+    width: 500px;
+    list-style-type: none;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
