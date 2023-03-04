@@ -1,10 +1,9 @@
 #hero {
     height: 450px;
-    padding: 60px;
-    background-image: url("/images/gym.jpg");
+    padding: 50px 0;
+    background-image: linear-gradient(120deg, rgba(255, 255, 255, 0.226), rgba(56, 54, 51, 0.473)), url("/images/gym.jpg");
     text-align: center;
     background-size: cover;
-    width: 100%;
     
 }
 
@@ -12,9 +11,43 @@
     font-size: 40px;
     background-color: rgba(51, 47, 47, 0.7);
     position: relative;
-    top:200px;
+    top: 270px;
     color: rgba(255, 255, 255, 0.8);
     width: 100%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin: auto 0;
+}
+
+#class-offerings h2 {
+    color: rgb(67, 164, 209);
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 0;
+}
+
+#class-offerings ul {
+    display: grid;
+    width: 800px;
+    text-align: center;
     margin: 0 auto;
-    
+    list-style-type: none;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 30px;
+}
+
+#class-offerings li {
+    display: flex;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    height: 175px;
+    width: 350px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#class-offerings img {
+    height: 175px;
+    width: 200px;
+    object-fit: cover;
 }
