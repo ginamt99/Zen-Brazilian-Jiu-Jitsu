@@ -32,3 +32,41 @@ a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
 }
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+footer ul {
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li {
+    width: 60px;
+    height: 60px;
+    margin: 25px 30px;
+}
+
+footer img {
+    width: 100%;
+    height: 100%;
+}
+
+#address {
+    display: block;
+    color: wheat;
+}
+
+#contact-info {
+    display: block;
+    color: wheat;
+}
