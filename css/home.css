@@ -1,17 +1,16 @@
 #hero {
-    height: 450px;
-    padding: 50px 0;
-    background-image: linear-gradient(120deg, rgba(255, 255, 255, 0.226), rgba(56, 54, 51, 0.473)), url("/images/gym.jpg");
+    height: 50rem;
+    background-image: linear-gradient(180deg, rgba(85, 85, 85, 0.226), rgba(0, 0, 0, 0.9)), url("/images/gym.jpg");
     text-align: center;
     background-size: cover;
     
 }
 
 #hero h1 {
-    font-size: 40px;
+    font-size: 4rem;
     background-color: rgba(51, 47, 47, 0.7);
     position: relative;
-    top: 270px;
+    top: 25rem;
     color: rgba(255, 255, 255, 0.8);
     width: 100%;
     padding: 30px 20px;
@@ -29,9 +28,11 @@
 
 #class-offerings ul {
     display: grid;
+    padding: 0;
     width: 800px;
     text-align: center;
     margin: 0 auto;
+    box-sizing: border-box;
     list-style-type: none;
     grid-template-columns: 1fr 1fr;
     gap: 30px 30px;
@@ -39,6 +40,7 @@
 
 #class-offerings li {
     display: flex;
+    margin: 0 auto;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     height: 175px;
     width: 350px;
@@ -50,4 +52,22 @@
     height: 175px;
     width: 200px;
     object-fit: cover;
+}
+
+#class-offerings li:nth-of-type(5) {
+    grid-column: 1 / 3;
+    width: 96%;
+}
+
+.card {
+    display: flex;
+    padding: 12px 12px;
+    text-align: left;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin: 0;
 }
